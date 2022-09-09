@@ -1,6 +1,12 @@
-function NotificationButton() {
+
+import icon from '../../assets/img/notification-icon.svg'
+import './styles.css'
+
+function NotificationButton(): JSX.Element {
   return (
-    <p>Meu componentes</p>
+    <div className="dsmeta-red-btn">
+      <img src={icon} alt="Notificar" />
+    </div>
   )
 }
 
